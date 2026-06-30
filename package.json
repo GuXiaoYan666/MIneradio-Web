@@ -1,0 +1,38 @@
+{
+  "name": "mineradio-web",
+  "productName": "Mineradio Web",
+  "version": "1.1.3-web",
+  "description": "沉浸式粒子音乐可视化播放器网页版 — 天气电台、歌词舞台、3D 歌单架、六平台登录",
+  "author": "XxHuberrr",
+  "license": "GPL-3.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "NeteaseCloudMusicApi": "^4.32.0",
+    "puppeteer": "^24.15.0",
+    "qrcode": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "music-player",
+    "visualization",
+    "three-js",
+    "particles",
+    "netease-music",
+    "qq-music",
+    "kugou",
+    "kuwo",
+    "spotify",
+    "web-audio"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XxHuberrr/Mineradio-Web.git"
+  },
+  "homepage": "https://github.com/XxHuberrr/Mineradio-Web#readme"
+}
